@@ -1,8 +1,14 @@
 import React from "react";
 import Header from "./assets/components/header"
+import MultiplyFromDenominations from "./assets/components/counter";
 
 export default function App() {
     return (
-        <h1>Hello</h1>
+        <div>
+            <Header />
+            <main>
+                <MultiplyFromDenominations />
+            </main>
+        </div>
     );
 };
