@@ -4,9 +4,9 @@
   "description": "Allows the user to count the total sum of individual denominations as well as number of bills of each",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server .",
-    "build": "Webpack .",
-    "test": "test"
+    "start": "webpack serve --open --config webpack.config.js",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
